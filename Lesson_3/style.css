@@ -1,0 +1,52 @@
+h1 {
+    background-color: #A52A2A;
+    color: white;
+    width: 200 px;
+    text-align: center;
+}
+
+img {
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 95%;
+}
+
+p {
+    font-family: tahoma;
+    font-size: 18px;  
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.color {
+    color: blue;
+    font-weight: bold;
+}
+
+.color2 {
+    color: blue;
+}
+
+.image-block {
+    margin: auto;
+    text-align: center;
+}
+
+.img {
+    width: 100px;
+    border-style: dashed;
+    margin: 3px;
+}
+
+footer {
+background-color: black;
+text-align: center;
+color: white;
+font-size: 20px;
+}
