@@ -1,10 +1,11 @@
+* { 
+    box-sizing: border-box;
+}
+
 body {
     background-color: #3399cc;
     font-family: sans-serif, 'Lucida Grande', 'Lucida Sans Unicode';
 }
-
- /* { 
-    box-sizing: border-box;*/
 
 h1 {
     color: white;
@@ -12,16 +13,18 @@ h1 {
 }
 
 .container {  
-    margin: 25px;
-    /*width: 900px;
-    height: 350px; 
-    box-sizing: border-box;  
-    margin: auto;*/
+    margin: 25px auto;
+    width: 960px;
+}
+
+.box {
+    border: solid 2px white;
+    overflow: hidden;
 }
 
 .card {
     float: left;
-    width: 15%;
+    width: 25%;
     height: 25%;
     border: solid 2px white;
     padding: 35px;
@@ -29,14 +32,14 @@ h1 {
 }
 
 .card-big {
-    width: 40%;
+    width: 50%;
 }
 
 .card-big2 {
-    width: 89%;
+    width: 100%;
 }
 
-p {
+.card p {
     text-align: center;
     color: white;
     opacity: 1;
@@ -86,16 +89,11 @@ p {
     background-color: #666699;
 }
 
-.box {
-    padding: 20px 350px;
-    height: 200px;
-}
-
 i[class^="wi"] {
     color: rgb(255,255,255,0.7);
     font-size: 25px;
 }
 
-footer {
+footer p {
     color: white;
 }
