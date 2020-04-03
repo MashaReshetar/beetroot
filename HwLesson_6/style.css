@@ -53,6 +53,7 @@ h2 {
     height: 16px;
     font-weight: bold;
     text-transform: uppercase;
+    margin: 45px 0px 18px;
 }
 
 .items {
@@ -68,16 +69,19 @@ h2 {
     color: #ffffff;
 }
 
-.a {
+.caption {
     color: #ffffff;
 }
 
-.b {
+.text {
     margin-top: 20px;
     color: #ffffff;
 }
 
-p:not(.b) {
+p:not(.text) {
    color: #777777; 
 }
 
+.image {
+    height: 65px;
+}
