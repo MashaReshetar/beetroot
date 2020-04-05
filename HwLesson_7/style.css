@@ -16,28 +16,37 @@
     padding: 0;
 }
 
+html {
+    font-size: 62.5%;
+    color: #171717;
+}
+
 .title:first-letter {
     color: #171717;
     font-family: "Playfair Display";
-    width: 62px;
+    /*width: 62px;
     height: 79px;
     font-size: 110px;   
     font-weight: 400;
-    text-transform: uppercase; 
+    text-transform: uppercase; */
+    float: left;
+    padding-right: 30px;
+    line-height: 9rem;
+    font-size: 11rem;
 }
 
-article {
+.container {
     width: 1400px;
-    height: 940px;
     padding: 140px 138px 122px 123px;
     box-shadow: 0 4px 68px rgba(0, 0, 0, 0.1);
-    margin: 130px 98px 126px 98px;
+    margin: 228px auto;
 }
 
 h1 {
     color: #171717;
     font-family: "Playfair Display";
     font-size: 42px;
+    margin-bottom: 36px;
 }
 
 .text {
@@ -65,13 +74,18 @@ button {
     background-color: white;
 }
 
-.quote {
-    font-size: 24px;
-    letter-spacing: -0.12px;
-    line-height: 34px;
+blockquote {
+    margin-top: 40px;
 }
 
-span.mark {
-    letter-spacing: -0.09px;
-    line-height: 40px;
+blockquote > p:before {
+    content: open-quote;
+    font-size: 6rem;
+}
+
+blockquote > p {
+    font-size: 2.4rem;
+    font-style: italic;
+    line-height: 3.4rem;
+    opacity: 0.7;
 }
