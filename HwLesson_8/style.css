@@ -18,9 +18,7 @@ header > h1 {
     color: #ffffff;
     font-family: Raleway;
     font-size: 90px;
-    font-weight: 700;   
-    /*margin: 100px;*/
-    
+    font-weight: 700;       
 }
 
 .container {
@@ -31,8 +29,6 @@ header > h1 {
 
 header {
     margin: auto;
-    width: 650px;
-    /*padding-top: 100px;*/
 }
 
 header p {
@@ -42,7 +38,6 @@ header p {
     font-weight: 300;
     margin: auto;
     width: 563px;
-    height: 66px;
     margin-top: 60px;
     line-height: 25px;
 }
@@ -69,16 +64,12 @@ header p {
     top: 25px;
     left: 30px;
     opacity: 0.7;
-    
-}
-
-.data > p {
     text-align: center;
     color: #ffffff;
     font-family: "Raleway - Heavy";
-    font-size: 21px;
+    font-size: 25px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: bold;    
 }
 
 .text {
@@ -115,4 +106,5 @@ button {
     line-height: 25px;
     text-transform: uppercase;
     margin-top: 50px;
+    border: none;
 }
