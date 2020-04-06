@@ -1,0 +1,99 @@
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3399cc;
+    font-family: sans-serif, 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.container {  
+    margin: 25px auto;
+    width: 960px;
+}
+
+.box {
+    border: solid 2px white;
+    overflow: hidden;
+}
+
+.card {
+    float: left;
+    width: 25%;
+    height: 25%;
+    border: solid 2px white;
+    padding: 35px;
+    font-size: 16px;
+}
+
+.card-big {
+    width: 50%;
+}
+
+.card-big2 {
+    width: 100%;
+}
+
+.card p {
+    text-align: center;
+    color: white;
+    opacity: 1;
+  }
+
+.card:nth-child(1) {
+    background-color: orchid;
+}
+
+.card:nth-child(2) {
+    background-color: #33cccc;
+}
+
+.card:nth-child(3) {
+    background-color: #996699;
+}
+
+.card:nth-child(4) {
+    background-color: #c24747;
+}
+
+.card:nth-child(5) {
+    background-color: #e2674a;
+}
+
+.card:nth-child(6) {
+    background-color: #ffcc66;
+}
+
+.card:nth-child(7) {
+    background-color: #99cc99;
+}
+
+.card:nth-child(8) {
+    background-color: #669999;
+}
+
+.card:nth-child(9) {
+    background-color: #cc6699;
+}
+
+.card:nth-child(10) {
+    background-color:#339966;
+}
+
+.card:nth-child(11) {
+    background-color: #666699;
+}
+
+i[class^="wi"] {
+    color: rgb(255,255,255,0.7);
+    font-size: 25px;
+}
+
+footer p {
+    color: white;
+}
