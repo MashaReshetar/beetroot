@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway'),
+    url(./fonts/Raleway/Raleway-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-main {
+    background: url(./Img/strawberry.png) center/cover;
+    /*background-size: 100%;*/
+    width: 100%;
+    height: 100vh;
+    line-height: 1;
+}
+
+.main-header__logo {
+    position: relative;
+    top: 50px;
+    left: 165px;
+}
+
+.main-header__nav {
+    overflow: hidden;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    top: 69px;
+    right: 164px;
+}
+
+.nav__item {
+    color: #262626;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.nav__item--active {
+    position: relative;
+}
+
+.nav__item--active::before {
+    content: '';
+    position: absolute;
+    width: 45px;
+    height: 3px;
+    background-color: #ff6033;
+    left: 13px;
+    top: 0;
+    margin-top: 5px;
+}
+
+.nav__item:hover {
+    cursor: pointer;
+}
+
+.main-content {
+    position: relative;
+    top: 258px;
+    left: 164px;
+    width: 370px;
+}
+
+.main-content__title {
+    color: #262626;
+    font-family: "Raleway - Heavy";
+    font-size: 60px;
+    font-weight: 400;
+    font-weight: bold;
+    line-height: 75px;
+    padding-bottom: 20px;
+}
+
+.main-content__text {
+    color: #262626;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.main-scroll {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+}
+
+.btn-wrapper {
+    position: relative;
+    top: 31px;
+}
+
+.btn-wrapper__btn {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #ff6033;
+    border: none;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 300;
+    /*line-height: 27px;*/
+    text-transform: uppercase;
+    width: 200px;
+    height: 55px;
+}
+
+.about {
+    background-color: #00c4c4;
+    min-width: 1500px;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+.about__img {
+    position: absolute;
+    left: 175px;
+    top: 71px;
+    width: 566px;
+    height: 559px;
+}
+
+.about-text {
+    height: 278px;
+    right: 166px;
+    top: 180px;
+    width: 499px;
+    color: #ffffff;
+    font-family: Raleway;
+    position: absolute;
+}
+
+.about-text__title {    
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    /*position: absolute;*/
+}
+
+.about-text__desc {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+   /* position: absolute;*/
+}
