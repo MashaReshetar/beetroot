@@ -1,0 +1,110 @@
+.blog {
+    background-color: #b07cf7;
+    
+    header > h1 {
+        color: #ffffff;
+        font-family: "Raleway";
+        font-size: 90px;
+        font-weight: 700;       
+    }
+    
+    .container {
+        width: 1200px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    header {
+        margin: auto;
+        padding-top: 100px;;
+    }
+    
+    header p {
+        color: #ffffff;
+        font-family: "Raleway";
+        font-size: 17px;
+        font-weight: 300;
+        margin: auto;
+        width: 563px;
+        margin-top: 60px;
+        line-height: 25px;
+    }
+    
+    .gallery-2 {
+        display: flex;
+        margin-top: 47px;
+        justify-content: space-around;
+
+        .item-gallery {
+            position: relative;
+            width: 370px;
+            height: 310px;
+        }
+    }
+    
+    .data {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        border-radius: 5px;
+        background-color: #262626;    
+        top: 25px;
+        left: 30px;
+        opacity: 0.7;
+        text-align: center;
+        color: #ffffff;
+        font-family: "Raleway-Heavy";
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: bold;    
+    }
+    
+    .text {
+        color: #ffffff;
+        font-family: "Raleway";
+        font-size: 20px;
+        font-weight: 700;  
+        position: absolute;
+        bottom: 60px;
+        left: 15px;
+        text-align: left;
+    }
+    
+    .text+p {
+        font-family: "Raleway-Light";
+        font-size: 15px;
+        font-weight: 300;
+        position: absolute;
+        left: 20px;
+        bottom: 24px;
+        color: #ffffff;
+        opacity: 0.5;
+    }
+    
+    button {
+        width: 200px;
+        height: 55px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        background-color: #f72b3b;
+        color: #ffffff;
+        font-family: "Raleway";
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25px;
+        text-transform: uppercase;
+        margin-top: 50px;
+        border: none;
+        margin-bottom: 120px;
+    }
+
+    button:hover {
+        background-color: #ee2031;
+        cursor: pointer;
+    }
+
+    button:active {
+        background-color: #ee2031;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px)
+    }
+}
