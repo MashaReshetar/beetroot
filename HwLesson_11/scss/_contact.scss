@@ -101,22 +101,18 @@
         background-color: black;
         color: white;
         height: 90px;
-        position: relative;
-    }
+        display: flex;
+        justify-content: space-around;
+        padding-top: 35px;
+        }
     
     .page-footer__logo {
         filter: brightness(400%);
-        right: 50%;
-        position: absolute;
         width: 64px;
         height: 27px;
-        top: 32px;
     }
     
     .page-footer__copyright {
-        position: absolute;
-        left: 164px;
-        top: 37px;
         color: #b9b9b9;
         font-family: "Raleway";
         font-size: 16px;
@@ -124,9 +120,6 @@
     }
     
     .page-footer__author {
-        position: absolute;
-        right: 164px;
-        top: 38px;
         color: #b9b9b9;
         font-family: "Raleway";
         font-size: 15px;

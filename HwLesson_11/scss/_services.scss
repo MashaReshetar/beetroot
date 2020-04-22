@@ -2,7 +2,7 @@
     padding: 80px; 
     background-color: #70bfff;
 
-    .services__wrapper {
+    &_wrapper {
         width: 100%;
         display: flex;
         margin: 0 auto;
@@ -49,12 +49,12 @@
         right: 26px;
     }
     
-    .services__img {
+    &__img {
         width: 462px;
         height: 527px;
     }
     
-    .services__title {
+    &__title {
         position: absolute;
         top: 231px;
         left: 700px; 

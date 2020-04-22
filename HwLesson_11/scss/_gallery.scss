@@ -3,12 +3,12 @@
     width: 100%;
     padding: 100px 120px;
 
-    .gallery__wrapper {
+    &__wrapper {
         margin: auto;
         width: 1200px;
     }
     
-    .gallery__header {
+    &__header {
         text-align: center;
         color: #262626;
         font-family: "Raleway";
@@ -16,12 +16,12 @@
         margin: auto;
     }
     
-    .gallery__title {
+    &__title {
         font-size: 90px;
         font-weight: 700;
     }
     
-    .gallery__text {
+    &__text {
         font-size: 17px;
         font-weight: 300;
         padding-top: 28px;
