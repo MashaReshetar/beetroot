@@ -68,11 +68,25 @@
         font-weight: 400;
         padding: 0 54px 25px 60px;
         line-height: 26px;
+        position: relative;
+        text-indent: 30px;
 
         @media screen and (max-width: 500px) {
             font-size: 13px;
-        }
+        }        
     }
+
+    &__quote:before {
+            content: quote($string: '\201C');
+            color: rgba(0, 123, 255, 0.54);
+            width: 100%;
+            font-size: 90px;
+            line-height: 1;
+            text-align: inherit;
+            position: absolute;
+            left: 30px;
+            top: -10px;
+        }
 
     .footer {
         width: 100%;

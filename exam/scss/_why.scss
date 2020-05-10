@@ -135,6 +135,25 @@
             max-width: 1110px;
             justify-content: space-around;
             margin: auto;
+
+            &__wrap{
+                overflow: hidden;
+                height: 50px; 
+                margin-top: 40px;
+        
+            }
+    
+            &__wrapper{
+                width: 250px;
+                height: 90px;
+                border-top: 2px dotted grey;
+                border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+                
+
+                @media screen and (max-width: 1024px) {
+                   display: none;
+                  }
+             }
         }
 
         .pic-picture {
@@ -145,7 +164,7 @@
         .pic-picture__desc {
             color: #e8e8e8;
             font-family: Aleo;
-            font-size: 36px;
+            font-size: 30px;
             font-weight: 400;
             padding-top: 15px;
 
