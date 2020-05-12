@@ -1,5 +1,6 @@
 .main-page {
     background-image: url(../image/page-1/bg.png);
+    background-size: cover;
     width: 100%;
     min-height: calc(100vh - 15px);
     display: flex;
@@ -122,20 +123,29 @@
         letter-spacing: 2.8px;
         position: absolute;
         bottom: 180px;
-        left: 47%;
+        left: 48%;
+
+        @media screen and (max-width: 1440px) {
+            left: 47%;
+            }
 
         @media screen and (max-width: 600px) {
             visibility: hidden;
             }
     }
 
+    .scroll__link {
+        text-decoration: none;
+    }
+
     .scroll-page {
-        position: absolute;
-        bottom: 50px;
-        left: 50%;
         width: 40px;
         height: 40px;
         transform: translateY(-80px) translateX(-50%) rotate(45deg);
+        position: absolute;
+        margin: auto;
+        bottom: 50px;
+        left: 50%;
 
         @media screen and (max-width: 600px) {
             visibility: hidden;
@@ -191,12 +201,16 @@
     }
 
     .menu {
-        height: 80px;
+        height: 70px;
         background-color: #5474fd;
         position: absolute;
         left: 0;
         bottom: 0;
         width: 100%;
+
+        @media screen and (max-width: 900px) {
+            height: 40px;
+            }
                     
              &__nav {
                 display: flex;
@@ -204,6 +218,10 @@
                 align-items: center;
                 position: relative;
                 background-color: #5474fd;
+
+                @media screen and (max-width: 900px) {
+                    flex-direction: column;
+                    }
                 }
 
             &__title {
@@ -213,10 +231,12 @@
                 font-weight: 700;
                 text-transform: uppercase;
                 letter-spacing: 2.4px;
+                padding-top: 25px;
                       
 
                 @media screen and (max-width: 900px) {
-                    padding-top: 30px;
+                    padding: 10px 0 10px 0;
+                    font-size: 20px;
                     }
 
                     @media screen and (max-width: 750px) {
@@ -312,21 +332,25 @@
                         overflow: hidden;
                         list-style: none;
                         margin: 0;
-                        padding: 0;
                         transition: all 1s cubic-bezier(.325, 1, .22, 1);
+                        display: flex;
                     
                         @media (min-width: 900px) {
                           max-height: none;
                           text-align: center;
                         }
+
+                        @media screen and (max-width: 900px) {
+                            flex-direction: column;
+                            }
                       }
 
                     &__item {
-                        padding: 20px;
-                        padding-top: 30px;
+                        margin: 0 0 0 20px;
+                        padding-top: 20px;
                     
-                        @media (min-width: 900px) {
-                          display: inline-block;
+                        @media (max-width: 900px) {
+                          padding: 10px;
                         }
                     }
 
@@ -340,14 +364,9 @@
                         text-transform: uppercase;
                         transition: opacity 0.5s ease;
 
-                        @media (min-width: 900px) {
-                            display: inline-block;
-                            height: 60px;
-                            line-height: 60px;
-                            padding-top: 0;
-                            padding-bottom: 0;
-                            border: none;
-                          }
+                        @media (max-width: 900px) {
+                           font-size: 12px;
+                            }
             
                         &:link,
                         &:visited {
