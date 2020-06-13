@@ -1,0 +1,72 @@
+.spain-2 {
+    background: url(../image/page-4/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 229px;
+    padding-bottom: 80px;
+
+    @media screen and (max-width: 800px) {
+        padding-top: 150px;
+    }
+
+    &__wrapper {
+        max-width: 540px;
+        background-color: #232323;
+        opacity: 0.9;        
+        padding-left: 30px;
+        margin-left: auto;
+
+        @media screen and (max-width: 800px) {
+            margin: auto;
+            padding-right: 30px;
+        }
+
+        @media screen and (max-width: 600px) {
+           text-align: center;
+          }
+    }
+
+        &__title {
+            padding-top: 50px;
+            color: #e8e8e8;
+            font-family: "Josefin Sans";
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: 1.5px;
+        }
+
+        &__subtitle {
+            padding: 30px 0 29px;
+            color: #ffffff;
+            font-family: "Josefin Sans";
+            font-size: 20px;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+
+        &__desc {
+            color: #e8e8e8;
+            font-family: "Josefin Sans";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+        }
+
+        &__button {
+            padding: 48px 0 50px;
+        }
+
+        &__btn {
+            background-color: #5474fd;
+            color: #ffffff;
+            font-family: Aleo;
+            font-size: 16px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            border: none;
+            width: 225px;
+            height: 60px;
+        }
+}
