@@ -1,0 +1,21 @@
+.rooms {
+    background-color: #f7f7f8;
+
+    &__title {
+        padding: 150px 0 140px;
+        color: #333333;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 24px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__img {
+        transition: 1s;
+    }
+    &__img:hover {
+        transform: scale(1.2); 
+    }
+}
